@@ -1,0 +1,8 @@
+{
+    "name": "castlegate/cgit-wp-mail-headers",
+    "autoload": {
+        "psr-4": {
+            "Castlegate\\MailHeaders\\": "classes"
+        }
+    }
+}
