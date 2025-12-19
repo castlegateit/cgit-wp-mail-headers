@@ -162,8 +162,6 @@ final class Plugin
      */
     private static function sanitizeHeaders($headers): array
     {
-        $headers = $args['headers'] ?? [];
-
         if (is_string($headers)) {
             $headers = preg_split('/[\n\r]+/', $headers);
         } elseif (!is_array($headers)) {
